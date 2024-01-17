@@ -1,0 +1,71 @@
+
+
+.baseproject{
+    display:flex;
+    flex-direction: column;
+   
+
+}
+
+.headerandprojectdesc{
+    margin-left:40px;
+    
+
+}
+
+
+
+
+.projectItems{
+    margin-top: 10px;;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2rem;;
+    
+    
+}
+
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    /* height:200px; */
+    width:300px;
+    justify-content: space-between;
+    background-color: #E1CBD7;
+   
+   
+}
+.Photosize{
+
+    height:250px;
+    width:300px;
+}
+/* .namegitcontentbackcolor{
+    background-color: #E1CBD7;
+
+} */
+
+
+/* .image{
+
+} */
+
+.nameandGit{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #E1CBD7; */
+
+}
+
+
+
+
+
+
+
+
+
+

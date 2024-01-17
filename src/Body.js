@@ -1,8 +1,31 @@
+import Projects from "./Projects"
+
+import About from "./About"
+import Skills from "./Skills"
+import Contact from "./Contact"
+
+
+
 function Body(){
 
 
     return (
-       <div> This is the body section</div> 
+       <div className="mainbody"> 
+
+
+       <About/>
+
+       <Skills/>
+       
+       
+       
+       <Projects/>
+
+       <Contact/>
+       
+       
+       
+       </div> 
     )
 }
 

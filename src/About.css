@@ -1,0 +1,29 @@
+
+ .base{
+    margin:40px;
+    height:100%;
+}
+
+
+
+
+
+.contPhoto{
+    display: flex;
+    flex-direction: row;
+    margin:0px;
+    justify-content: space-between;
+   
+    
+
+} 
+.pp{
+    margin-top: 70px;
+    height: 350px;
+    width:400px;
+}
+
+.photod{
+
+    margin-left:70px;
+}

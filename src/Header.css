@@ -1,0 +1,25 @@
+.Navbar{
+    text-decoration: none;
+    
+    background-color:#26425A;
+    color:white;
+   
+    /* padding-left:50%; */
+    display:flex;
+    justify-content: space-around;
+    margin-top: 0%;
+    height:2.5rem;
+    align-content: center;
+    color:Black;
+
+
+  
+
+}
+
+.MainContainer{
+
+    margin-left: 0%;
+   
+    margin:0%;
+}
