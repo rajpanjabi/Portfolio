@@ -1,0 +1,28 @@
+.deck{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 10%;
+   
+}
+
+.slideImg{
+
+    height:650px ;
+    width:960px;
+   max-width:960px;
+   min-width: 350px;
+   min-height:250px;
+}
+
+.butsize{
+    height:80px ;
+    width:80px;
+    margin-top: 20%;
+}
+
+.backg{
+    background-color: transparent;
+    border: 0cap;
+}

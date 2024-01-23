@@ -44,7 +44,7 @@ function Project(){
         </div>
         <div className="projectItems" > 
         
-        {Projects.map((project)=> (<div className="cardDiv" > 
+        {Projects.map((project)=> (<div className="cardDiv tilt-container" > 
 
        <div className="image"> 
 
@@ -60,7 +60,7 @@ function Project(){
         </div>
       
         <div className="content">
-        <p className="content">{project.content}</p>
+        <p className="contentp">{project.content}</p>
         </div>
         </div>
        
@@ -76,7 +76,11 @@ function Project(){
         
         
         </div>
+
+     
         </div>
+
+        
     )
 }
 

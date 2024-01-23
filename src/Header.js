@@ -18,11 +18,12 @@ function Header(){
 
        
 
-       <a href="{''}">  About</a>
-       <a href="{''}">Skills</a>
+       <a className="navelements" href="#about">  About</a>
+       <a className="navelements" href="#skills">Skills</a>
+       <a className="navelements" href="#projects"> Projects</a>
 
-       <a href="{''}"> Contact</a>
-       <a href="{'.baseproject'}"> Projects</a>
+       <a className="navelements" href="#contact"> Contact</a>
+
 
       
 

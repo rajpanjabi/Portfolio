@@ -1,3 +1,35 @@
 .head{
     margin-left:40px;
 }
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    margin-left :2.8%;
+    margin-right: 85%;
+  
+    gap:10px;;
+
+}
+
+.Reachout{
+    margin-left :2.8%;
+
+}
+
+.inputBack{
+    background-color: white;
+    border: 0;
+    border-radius:4px;
+    padding-left: 5%;
+}
+
+.res{
+
+    resize:both;
+    overflow: auto;
+
+
+    
+}

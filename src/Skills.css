@@ -1,3 +1,27 @@
 .skillhead
 {
 margin-left:40px;}
+
+
+.casediv{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.lang{
+
+}
+
+.web{
+
+}
+
+.data{
+
+}
+.devtools{
+
+
+}

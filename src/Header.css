@@ -1,16 +1,17 @@
 .Navbar{
     text-decoration: none;
     
-    background-color:#26425A;
-    color:white;
+    background-color:#a6bcd4;
+    
    
     /* padding-left:50%; */
     display:flex;
-    justify-content: space-around;
-    margin-top: 0%;
+    justify-content: space-evenly;
+   
     height:2.5rem;
-    align-content: center;
-    color:Black;
+    /* align-content: center; */
+    align-items: center;
+    color:#08494a;
 
 
   
@@ -22,4 +23,10 @@
     margin-left: 0%;
    
     margin:0%;
+}
+
+.navelements{
+    text-decoration: none;
+    /* text-decoration-line: none; */
+    color: white;
 }
