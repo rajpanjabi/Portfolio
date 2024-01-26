@@ -6,22 +6,50 @@ margin-left:40px;}
 .casediv{
     display: flex;
     flex-direction: row;
+   
     
     justify-content: space-around;
 }
 
 .lang{
-
+     
 }
 
 .web{
+ 
 
 }
 
 .data{
+ 
 
 }
 .devtools{
+ 
 
+}
 
+.row1{
+    display:flex;
+    flex-direction: display;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.row2{
+    display:flex;
+    flex-direction: display;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+.row3{
+    display:flex;
+    flex-direction: display;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    
 }

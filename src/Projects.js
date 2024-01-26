@@ -1,30 +1,47 @@
 
-import "./Project.css"
+import "./Project.css";
+import FamilyTravelTracker from './FamilyTravelTracker.png';
+import capitalQuizpic from './capitalQuizpic.png';
+import Aerofitpic from "./Aerofitpic.png";
+import uberpic from "./uberpic.png"
+import codLol from "./codLol.png"
+
 
 function Project(){
     const Projects=[
-        {
-            photo:"https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg",
-            content:"loefvghewrbqjci rhevcbeuhirb urni iuerb uirn erb uienr hbeion bey rne iur oernb  oberi oi",
-            name:"ecom website",
+        
+        
+        {   photo:codLol,
+            content:"Created an auction-based web application using Spring Boot and React with Maven project management, featuring a product catalog, bidding system, and Stripe-integrated payment processing. Implemented robust user authentication, and containerized the application with Docker for scalable cloud deployment.",
+            name:"BidWise Full Stack Web Application",
             type:"java"
         },
-        {
-            photo:"https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg",
-            content:"loefvghewrbqjci rhevcbeuhirb urni iuerb uirn erb uienr hbeion bey rne iur oernb  oberi oi",
-            name:"Uber analysis",
+        {   photo:codLol,
+            content:"Created an auction-based web application using Spring Boot and React with Maven project management, featuring a product catalog, bidding system, and Stripe-integrated payment processing. Implemented robust user authentication, and containerized the application with Docker for scalable cloud deployment.",
+            name:"BidWise Full Stack Web Application",
+            type:"java"
+        },
+     
+        {   photo:FamilyTravelTracker,
+            content:"Travel Tracker is a Node.js and Express web application interfacing with a PostgreSQL database, enabling users to log visited countries, which are then highlighted on an interactive map rendered using EJS templating. The application features a user-friendly interface for adding countries and displays the total count of visited nations.",
+            name:"Family Travel Tracker",
+            type:"java"
+        },
+        {   photo:uberpic,
+            content:"Developed a predictive model to evaluate Uber Driver’s Lifetime Value using Python libraries, determining key performance indicators and driver tenure to inform strategic business decisions and implement dynamic pricing through clustering.",
+            name:"Uber Driver Lifetime Value Analysis",
+            type:"Python"
+        },
+
+        {   photo:Aerofitpic,
+            content:"Conducted buyer profiling for AeroFit treadmills by analyzing customer demographics, employing descriptive and exploratory analysis with matplotlib and seaborn to distinguish customer characteristics per product, and calculated conditional, marginal probabilities, and outliers impact.",
+            name:"Aerofit Treadmill Buyer Profiling",
             type:"python"
         },
 
-        {   photo:"https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg",
-            content:"loefvghewrbqjci rhevcbeuhirb urni iuerb uirn erb uienr hbeion bey rne iur oernb  oberi oi",
-            name:"aerofit treadmill",
-            type:"python"
-        },
-
-        {  photo:"https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg",
-            content:"loefvghewrbqjci rhevcbeuhirb urni iuerb uirn erb uienr hbeion bey rne iur oernb  oberi oi",
-            name:"aerofit treadmill",
+        {  photo:capitalQuizpic,
+            content:"Capital City Quiz is an interactive web application where users can test their knowledge of capital cities around the world. Built with Node.js, Express, and PostgreSQL, this quiz challenges users to identify the capital city for each country presented.",
+            name:"Capital Quiz Game",
             type:"python"
         },
         
