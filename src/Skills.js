@@ -1,7 +1,22 @@
 
-import React from "react";
-import "./Skills.css"
-import Reactsvg from"./svg/reactsvg.jsx"
+
+import "./Skills.css";
+import Reactsvg from"./svg/reactsvg.jsx";
+import Htmlsvg from "./svg/html.jsx";
+import Csssvg from "./svg/css.jsx"
+import Jssvg from "./svg/js.jsx"
+import Expresssvg from "./svg/express.jsx"
+import Nodesvg from "./svg/nodesvg.jsx"
+import Dockersvg from "./svg/docker.jsx"
+import Gitsvg from "./svg/git.jsx"
+import Javasvg from "./svg/java.jsx"
+import Jirasvg from "./svg/jira.jsx"
+import Mongosvg from "./svg/mongo.jsx"
+import Postgresvg from "./svg/postgreSQl.jsx"
+import Pythonsvg from "./svg/python.jsx"
+import Springsvg from "./svg/spring.jsx"
+
+
 
 function Skills(){
 
@@ -14,30 +29,76 @@ function Skills(){
 
       <div className="lang">
 
-      <Reactsvg/>
-      <p>Hello </p>
-      <p>Hello </p>
+      <div className="row1">
+      <Pythonsvg/>
+      <Javasvg/>
+      </div>
+
+      <div className="row2">
+
+      </div>
+      
+      <div className="row3">
+
+      </div>
+
+    
+      
+      
 
       </div>
 
       <div className="web">
-      <p>Hello </p>
-      <p>Hello </p>
-      <p>Hello </p>
 
+      <div className="row1">
+
+      <Reactsvg/>
+      <Htmlsvg />
+      <Csssvg/>
+      </div>
+      <div className="row2">
+       
+      <Jssvg/>
+      <Expresssvg/>
+      <Nodesvg/>
+
+      </div>
+      <div className="row3"></div>
+    
+
+     
       </div>
 
       <div className="data">
-      <p>Hello </p>
-      <p>Hello </p>
-      <p>Hello </p>
+
+      <div className="row1">
+      <Postgresvg/>
+         {/* <Mongosvg/> */}
+      </div>
+      <div className="row2">
+
+      </div>
+      <div className="row3">
+
+      </div>
+   
+   
+
+
+     
 
       </div>
 
       <div className="devtools">
-      <p>Hello </p>
-      <p>Hello </p>
-      <p>Hello </p>
+
+      <div className="row1">
+      <Gitsvg/>
+      <Dockersvg/>
+      <Jirasvg/>
+      </div>
+      <div className="row2"></div>
+      <div className="row3"></div>
+    
 
       </div>
 

@@ -1,18 +1,13 @@
 .Basediv{
     
-    background-color: #102039;
-    color: #f1f8f7;
+    /* background-color:#fff; */
+    background-color: #fafafc;
+    color:#1d1d1f;
     height: 100%;
     margin:0%;
     padding: 0%;
     border:0%;
-    /* color:white; */
-    /* background-size: 100%;
-    width: 100%;
-    
-    background-image: url("https://cdn.discordapp.com/attachments/1152251961962418189/1173016286717018162/pexels-elviss-railijs-bitans-1389429.jpg?ex=65626b8c&is=654ff68c&hm=b142c66456602adf0580e12d44a73e02b17cdf25f8719c754943ff5dd986d052&");
-
-    background-repeat:repeat-y; */
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 

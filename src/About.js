@@ -2,6 +2,7 @@
 
 import codLol from './codLol.png';
 import "./About.css"
+import Raj from "./Rajj.jpeg"
 
 
 
@@ -29,9 +30,8 @@ function About(){
   </div>
 
   <div className="photod">
-  {/* <img className="pp" src="https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg" alt="ok" />  */}
-  
-  <img src={codLol} className="pp" alt="codLol" />
+ 
+  <img src={Raj} className="pp" alt="codLol" />
  
   
   </div>
