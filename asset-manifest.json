@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.17cea95b.css",
+    "main.js": "/Portfolio/static/js/main.51a6fa4c.js",
+    "static/media/Rajj.jpeg": "/Portfolio/static/media/Rajj.4b2e3c88197e5b7e49c3.jpeg",
+    "static/media/codLol.png": "/Portfolio/static/media/codLol.93384e46ea713bf5b6dd.png",
+    "static/media/capitalQuizpic.png": "/Portfolio/static/media/capitalQuizpic.c4b3b38bab57f179cdc2.png",
+    "static/media/Aerofitpic.png": "/Portfolio/static/media/Aerofitpic.02de1367ba1910c0fba9.png",
+    "static/media/FamilyTravelTracker.png": "/Portfolio/static/media/FamilyTravelTracker.4cec7c7a67a134401239.png",
+    "static/media/uberpic.png": "/Portfolio/static/media/uberpic.37bc39b798c7923c2a7d.png",
+    "static/media/forward-svgrepo-com.svg": "/Portfolio/static/media/forward-svgrepo-com.0ef7d553b6426ea67603018237075ef8.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.17cea95b.css.map": "/Portfolio/static/css/main.17cea95b.css.map",
+    "main.51a6fa4c.js.map": "/Portfolio/static/js/main.51a6fa4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17cea95b.css",
+    "static/js/main.51a6fa4c.js"
+  ]
+}
