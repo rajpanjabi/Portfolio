@@ -3,7 +3,7 @@
 .baseproject{
     display:flex;
     flex-direction: column;
-    background-color: #fafafc;
+    background-color:#fafafc;
    
 
 }
@@ -38,8 +38,9 @@
     flex-direction: column;
 
     width:300px;
-    justify-content: space-between;
-    background-color: white;
+    justify-content:flex-start;
+    gap: 0rem;;
+    background-color: #edf4ff;
    
    
 }
@@ -63,28 +64,46 @@
 .nameandGit{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-start;
+    margin-left: 1rem;
+    color:#678cb2;
+    
+   
+    
     /* background-color: #E1CBD7; */
 
 }
 
-.tilt-container {
+/* .tilt-container {
     transition: transform 0.3s ease-in-out;
     
   }
   
   .tilt-container:hover {
     transform: rotate(8deg); 
-  }
+  } */
   
 
 
-.contentp{
-    margin-left: 2rem;
-    margin-right: 2rem;;
+.content{
+    display: flex;
+    justify-content: center;
+    margin:1rem;
+    
+    
 }
 
 
+.gitsym{
+    margin-top: 0.2rem;;
+   
+    
+}
 
 
+.gitAdjust{
+    display: flex;
+    justify-content: flex-end;
+   
 
+}

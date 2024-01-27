@@ -15,6 +15,8 @@ import Mongosvg from "./svg/mongo.jsx"
 import Postgresvg from "./svg/postgreSQl.jsx"
 import Pythonsvg from "./svg/python.jsx"
 import Springsvg from "./svg/spring.jsx"
+import Mysqlsvg from "./svg/mysql.jsx";
+import Sqlsvg from "./svg/sql.jsx";
 
 
 
@@ -23,11 +25,12 @@ function Skills(){
     return(
         <div>
 
-<h1 className="skillhead"> <strong> Skills 👨🏻‍💻</strong></h1>
+<h1 className="skillhead" style={{fontSize:"40px"}}> <strong> Skills 👨🏻‍💻</strong></h1>
 
       <div className="casediv">
 
       <div className="lang">
+      <h1>Languages</h1>
 
       <div className="row1">
       <Pythonsvg/>
@@ -49,6 +52,7 @@ function Skills(){
       </div>
 
       <div className="web">
+      <h1>Web</h1>
 
       <div className="row1">
 
@@ -70,10 +74,14 @@ function Skills(){
       </div>
 
       <div className="data">
+      <h1>Data</h1>
 
       <div className="row1">
       <Postgresvg/>
-         {/* <Mongosvg/> */}
+      {/* <Sqlsvg/> */}
+      <Mysqlsvg/>
+
+      <Mongosvg/>
       </div>
       <div className="row2">
 
@@ -90,6 +98,7 @@ function Skills(){
       </div>
 
       <div className="devtools">
+      <h1>Dev Tools</h1>
 
       <div className="row1">
       <Gitsvg/>
