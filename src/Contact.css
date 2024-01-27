@@ -2,16 +2,7 @@
     margin-left:40px;
 }
 
-.form{
 
-    display: flex;
-    flex-direction: column;
-    margin-left :2.8%;
-    margin-right: 85%;
-  
-    gap:10px;;
-
-}
 
 .Reachout{
     margin-left :2.8%;
@@ -32,4 +23,35 @@
 
 
     
+}
+
+/* .OuterDiv{
+
+    display: flex;
+    justify-content: center;
+} */
+
+
+.mail{
+    height: 3rem;
+    width:10rem;
+    display: flex;
+    justify-content:center;
+    font-size:x-large;
+    border-radius: 980px;
+    background-color: #edf4ff;
+    color:#0066cc;
+   
+}
+
+.form{
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.line{
+    text-decoration: none;
 }

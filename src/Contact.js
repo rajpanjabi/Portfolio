@@ -1,28 +1,28 @@
 import "./Contact.css"
 
-// import { ReactComponent as MyIcon } from "./github-142-svgrepo-com.svg";
+
 
 function Contact(){
 
-    return(<div>
+    return(<div className="OuterDiv">
 
-    <h1 className="head"><strong>Get In Touch</strong></h1>
+    <h1 className="head" style={{fontSize:"40px"}}><strong>Get In Touch</strong></h1>
+    <p className="Reachout"> Reach out to me via GitHub, LinkedIn or e-mail</p>
 
     <form className="form" typeof="Submit" > 
    
-    <input className="inputBack" type="text" placeholder="Name" required={true}/> 
+    {/* <input className="inputBack" type="text" placeholder="Name" required={true}/> 
     
    
     <input className="inputBack" type="email" placeholder="Email" required={true}/>
 
-    <textarea className="inputBack res" type="text" placeholder="Message"  ></textarea>
-    
-    <input type="button" value="Submit"  ></input>
+    <textarea className="inputBack res" type="text" placeholder="Message"  ></textarea> */}
+    <a className="line" href="mailto:rajpunjabi47@yahoo.in" >
+    <input className="mail" type="button" value="Mail📮"  ></input> </a>
     </form>
 
-   <p className="Reachout"> Reach out to me via GitHub, LinkedIn or e-mail:</p>
-   <p className="Reachout" >Svggsss</p>
-   {/* <div className="Reachout" > <MyIcon/> </div> */}
+  
+ 
 
 
     </div>)

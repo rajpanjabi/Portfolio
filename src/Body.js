@@ -32,7 +32,7 @@ function Body(){
        </section>
 
 
-       <SlidingDeck/>
+       {/* <SlidingDeck/> */}
        
        
        
