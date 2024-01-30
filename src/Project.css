@@ -26,8 +26,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 3rem;;
-    border-color:#0066cc;
-    border-radius: 50px;
+   
     max-width:fit-content;
     
     
@@ -36,11 +35,14 @@
 .cardDiv{
     display: flex;
     flex-direction: column;
-
+   
+    border: 2px solid transparent; 
     width:300px;
     justify-content:flex-start;
     gap: 0rem;;
     background-color: #edf4ff;
+    cursor: pointer;
+    transition: background-color 0.5s ease, border-color 0.5s ease; /* Transition effect */
    
    
 }
@@ -51,10 +53,15 @@
     object-fit: cover;
     
 }
-/* .namegitcontentbackcolor{
-    background-color: #E1CBD7;
 
-} */
+
+
+  
+  .cardDiv:hover {
+    background-color: lightblue ; /* Color on hover */
+    
+    border-color: #0066cc;
+  }
 
 
 /* .image{

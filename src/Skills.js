@@ -17,7 +17,8 @@ import Pythonsvg from "./svg/python.jsx"
 import Springsvg from "./svg/spring.jsx"
 import Mysqlsvg from "./svg/mysql.jsx";
 import Sqlsvg from "./svg/sql.jsx";
-
+import Csvg from "./svg/c.jsx";
+import Gitlabsvg from "./svg/gitlab.jsx";
 
 
 function Skills(){
@@ -35,6 +36,7 @@ function Skills(){
       <div className="row1">
       <Pythonsvg/>
       <Javasvg/>
+      <Csvg/>
       </div>
 
       <div className="row2">
@@ -52,7 +54,7 @@ function Skills(){
       </div>
 
       <div className="web">
-      <h1>Web</h1>
+      <h1>Web Development</h1>
 
       <div className="row1">
 
@@ -74,7 +76,7 @@ function Skills(){
       </div>
 
       <div className="data">
-      <h1>Data</h1>
+      <h1> Data</h1>
 
       <div className="row1">
       <Postgresvg/>
@@ -104,8 +106,13 @@ function Skills(){
       <Gitsvg/>
       <Dockersvg/>
       <Jirasvg/>
+     
       </div>
-      <div className="row2"></div>
+      <div className="row2">
+      <Gitlabsvg/>
+      </div>
+
+      
       <div className="row3"></div>
     
 

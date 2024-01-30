@@ -18,7 +18,7 @@ function Contact(){
 
     <textarea className="inputBack res" type="text" placeholder="Message"  ></textarea> */}
     <a className="line" href="mailto:rajpunjabi47@yahoo.in" >
-    <input className="mail" type="button" value="Mail📮"  ></input> </a>
+    <input className="mail fade-button" type="button" value="Mail📮"  ></input> </a>
     </form>
 
   
