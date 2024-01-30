@@ -26,7 +26,7 @@ function About(){
 
     <p>Let's code the future, together!</p>
 
-  something about me
+  
   </div>
 
   <div className="photod">
