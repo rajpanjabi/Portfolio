@@ -6,6 +6,8 @@ margin-left:40px;}
 .casediv{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 3rem;
    
     
     justify-content: space-around;
