@@ -21,6 +21,7 @@ import Csvg from "./svg/c.jsx";
 import Gitlabsvg from "./svg/gitlab.jsx";
 
 
+
 function Skills(){
 
     return(
@@ -110,6 +111,7 @@ function Skills(){
       </div>
       <div className="row2">
       <Gitlabsvg/>
+      
       </div>
 
       
