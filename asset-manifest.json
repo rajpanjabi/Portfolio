@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.daabc264.css",
-    "main.js": "/Portfolio/static/js/main.e7c904f5.js",
+    "main.css": "/Portfolio/static/css/main.8d95e3e6.css",
+    "main.js": "/Portfolio/static/js/main.8618529f.js",
+    "static/media/RajPro.jpeg": "/Portfolio/static/media/RajPro.5c73b0eee46db9b5fbed.jpeg",
     "static/media/Rajj.jpeg": "/Portfolio/static/media/Rajj.4b2e3c88197e5b7e49c3.jpeg",
     "static/media/codLol.png": "/Portfolio/static/media/codLol.93384e46ea713bf5b6dd.png",
     "static/media/capitalQuizpic.png": "/Portfolio/static/media/capitalQuizpic.c4b3b38bab57f179cdc2.png",
-    "static/media/Aerofitpic.png": "/Portfolio/static/media/Aerofitpic.02de1367ba1910c0fba9.png",
+    "static/media/spotify.png": "/Portfolio/static/media/spotify.cbf0aa7ef2ec28218de7.png",
     "static/media/FamilyTravelTracker.png": "/Portfolio/static/media/FamilyTravelTracker.4cec7c7a67a134401239.png",
-    "static/media/uberpic.png": "/Portfolio/static/media/uberpic.37bc39b798c7923c2a7d.png",
     "static/media/forward-svgrepo-com.svg": "/Portfolio/static/media/forward-svgrepo-com.0ef7d553b6426ea67603018237075ef8.svg",
     "index.html": "/Portfolio/index.html",
-    "main.daabc264.css.map": "/Portfolio/static/css/main.daabc264.css.map",
-    "main.e7c904f5.js.map": "/Portfolio/static/js/main.e7c904f5.js.map"
+    "main.8d95e3e6.css.map": "/Portfolio/static/css/main.8d95e3e6.css.map",
+    "main.8618529f.js.map": "/Portfolio/static/js/main.8618529f.js.map"
   },
   "entrypoints": [
-    "static/css/main.daabc264.css",
-    "static/js/main.e7c904f5.js"
+    "static/css/main.8d95e3e6.css",
+    "static/js/main.8618529f.js"
   ]
 }
