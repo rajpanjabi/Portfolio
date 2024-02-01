@@ -3,6 +3,7 @@
 import codLol from './codLol.png';
 import "./About.css"
 import Raj from "./Rajj.jpeg"
+import RajPro from "./RajPro.jpeg"
 
 
 
@@ -31,7 +32,7 @@ function About(){
 
   <div className="photod">
  
-  <img src={Raj} className="pp" alt="codLol" />
+  <img src={RajPro} className="pp" alt="codLol" />
  
   
   </div>

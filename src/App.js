@@ -3,8 +3,9 @@ import Header from './Header'
 import Body from './Body'
 import Footer from './Footer'
 import TypingEffect from './TypingEffect';
+import Starfield from './Starfield';
 import "./App.css"
-
+import React from 'react';
 
 //import App from './App';
 function App() {
@@ -13,8 +14,9 @@ function App() {
     
 
   
-
-   <div className="Basediv">  
+    // 
+   <div className="Basediv animatedBackground">  
+   {/* <Starfield /> */}
    
    
    < Header/>

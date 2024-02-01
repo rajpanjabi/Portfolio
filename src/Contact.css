@@ -5,7 +5,7 @@
 
 
 .Reachout{
-    margin-left :2.8%;
+    margin-left :2.8rem;
 
 }
 
@@ -71,6 +71,7 @@
   }
 
 
-  background-color: lightblue ; /* Color on hover */
+.Reachout{
     
-  border-color: #0066cc;
+}
+
