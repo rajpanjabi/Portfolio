@@ -2,10 +2,11 @@
 import "./Project.css";
 import FamilyTravelTracker from './FamilyTravelTracker.png';
 import capitalQuizpic from './capitalQuizpic.png';
-import Aerofitpic from "./Aerofitpic.png";
-import uberpic from "./uberpic.png"
+
+import uber3 from "./uber3.png"
 import codLol from "./codLol.png"
-import GitSysvg from "./svg/gitsym";
+import spotify from "./spotify.png"
+import data from "./data.png"
 
 
 function Project(){
@@ -18,7 +19,7 @@ function Project(){
             type:"java",
             link:"https://www.github.com/Nishiket-singh/Ecom4413"
         },
-        {   photo:codLol,
+        {   photo:spotify,
             content:"Developed a Java-based backend for a Spotify clone using Spring Boot, integrating MongoDB and Neo4j to create two efficient, scalable microservices. The project focused on building RESTful API endpoints for specific use-cases, leveraging NoSQL and Graph DB, and refined skills in software architecture and Maven for build automation.",
             name:"API Backend Development with Microservices (Spotify Clone)",
             type:"java",
@@ -31,14 +32,14 @@ function Project(){
             type:"java",
             link:"https://www.github.com/rajpanjabi/TravelTracker"
         },
-        {   photo:uberpic,
+        {   photo:uber3,
             content:"Developed a predictive model to evaluate Uber Driver’s Lifetime Value using Python libraries, determining key performance indicators and driver tenure to inform strategic business decisions and implement dynamic pricing through clustering.",
             name:"Uber Driver Lifetime Value Analysis",
             type:"Python",
             link:"https://www.github.com/rajpanjabi/Uber_Driver_lifetime_Value_Python"
         },
 
-        {   photo:Aerofitpic,
+        {   photo:data,
             content:"Conducted buyer profiling for AeroFit treadmills by analyzing customer demographics, employing descriptive and exploratory analysis with matplotlib and seaborn to distinguish customer characteristics per product, and calculated conditional, marginal probabilities, and outliers impact.",
             name:"Aerofit Treadmill Buyer Profiling",
             type:"python",
@@ -68,7 +69,12 @@ function Project(){
         </div>
         <div className="projectItems" > 
         
-        {Projects.map((project)=> (<div className="cardDiv" > 
+        {Projects.map((project)=> (
+            
+            <a className="projectLink"  href={project.link}>
+           
+     
+        <div className="cardDiv" > 
 
        <div className="image"> 
 
@@ -79,12 +85,7 @@ function Project(){
        
        <div className="nameandGit">
         <p> <strong>{project.name} </strong></p>
-        <div className="gitAdjust"> 
         
-        <a className="gitsym"  href={project.link}>
-            <GitSysvg/>
-        </a>
-        </div>
         </div>
       
         <div className="content">
@@ -98,6 +99,8 @@ function Project(){
         
         
         </div>
+
+        </a>
         
         ))}
         

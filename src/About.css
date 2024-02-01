@@ -14,7 +14,7 @@
     flex-direction: row;
     margin:0px;
     justify-content: space-between;
-    background-color: #fafafc;
+    
    
     
 
@@ -24,6 +24,8 @@
     height: 350px;
     width:400px;
     object-fit: contain;
+    max-height: 400px;
+    max-width:480px;
 }
 
 .photod{
@@ -33,7 +35,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 
     .base{
        margin-top:0;
