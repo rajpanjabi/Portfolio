@@ -1,11 +1,12 @@
 
 
-import codLol from './codLol.png';
+
 import "./About.css"
 import Raj from "./Rajj.jpeg"
 import RajPro from "./RajPro.jpeg"
 import RajNia from "./Niagara.jpeg"
 import blue from "./blue.jpeg"
+import cv from "./cv230124.pdf"
 
 
 
@@ -32,11 +33,15 @@ function About(){
   
   </div>
 
-  <div className="photod">
+  <div className="photod imageContainer" >
+
+  <a href={cv} download="cv230124.pdf">
+                
+            
  
-  <img src={RajNia} className="pp" alt="codLol" />
+  <img src={blue} className="pp" alt="codLol" />
  
-  
+  </a>
   </div>
 
 
