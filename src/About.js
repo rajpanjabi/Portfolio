@@ -4,6 +4,8 @@ import codLol from './codLol.png';
 import "./About.css"
 import Raj from "./Rajj.jpeg"
 import RajPro from "./RajPro.jpeg"
+import RajNia from "./Niagara.jpeg"
+import blue from "./blue.jpeg"
 
 
 
@@ -32,7 +34,7 @@ function About(){
 
   <div className="photod">
  
-  <img src={RajPro} className="pp" alt="codLol" />
+  <img src={RajNia} className="pp" alt="codLol" />
  
   
   </div>

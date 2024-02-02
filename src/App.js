@@ -21,7 +21,7 @@ function App() {
    
    < Header/>
    <div className="Appgit">
-   <TypingEffect text="H ello I am Raj Panjabi, Welcome to My Website! Let's begin the adventure." />
+   <TypingEffect text="H ello I am Raj Panjabi, Welcome to My Portfolio! Let's Begin the Adventure." />
 
    </div>
 

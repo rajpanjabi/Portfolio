@@ -1,5 +1,6 @@
 
 import React, {useState, useEffect} from 'react';
+import "./TypingEffect.css"  
 
 function TypingEffect({text}){
 
@@ -21,7 +22,7 @@ function TypingEffect({text}){
 
     },[text]);
 
-    return <div>{intro} </div>;
+    return <div className="out"> <div className="IntroText" >{intro} </div></div>;
 
 
 
